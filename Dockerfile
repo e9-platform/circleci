@@ -3,7 +3,8 @@ FROM alpine:3.7
 RUN apk add --no-cache \
     docker==17.10.0-r0 \
     git==2.15.0-r1 \
-    openssh==7.5_p1-r8
+    openssh==7.5_p1-r8 \
+    openssl=1.0.2n-r0
 
 # install docker-compose
 RUN set -x && \
