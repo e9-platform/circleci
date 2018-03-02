@@ -7,7 +7,7 @@ RUN apk add --no-cache \
 
 # install docker-compose
 RUN set -x && \
-    apk add --no-cache -t .deps curl==7.57.0-r0 && \
+    apk add --no-cache -t .deps curl==7.58.0-r1 && \
     # Install glibc on Alpine (required by docker-compose) from
     # https://github.com/sgerrand/alpine-pkg-glibc
     # See also https://github.com/gliderlabs/docker-alpine/issues/11
